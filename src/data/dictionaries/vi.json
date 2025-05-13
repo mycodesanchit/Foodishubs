@@ -1,0 +1,386 @@
+{
+    "navigation": {
+        "home": "Trang chủ",
+        "about": "Về chúng tôi",
+        "contact_us": "Liên hệ",
+        "dashboard": "Bảng điều khiển",
+        "user_management": "Quản lý người dùng",
+        "about_us": "Về Chúng Tôi",
+        "forgot_password": "Quên Mật Khẩu",
+        "profile_management": "Quản lý hồ sơ",
+        "vendor_management": "Quản lý Nhà cung cấp",
+        "parents_profile": "Hồ sơ phụ huynh",
+        "kids_profile_management": "Quản lý hồ sơ trẻ em",
+        "food_chart_creation": "Tạo Biểu Đồ Thực Phẩm",
+        "add_staff": "Thêm Nhân Viên"
+    },
+    "form": {
+        "label": {
+            "first_name": "Tên",
+            "last_name": "Họ",
+            "email": "Email",
+            "email_address": "Địa chỉ Email",
+            "phone_number": "Số điện thoại",
+            "phone_number_optional": "Số điện thoại (Tùy chọn)",
+            "message": "Thông điệp của bạn",
+            "school_address": "Địa chỉ trường học",
+            "school_name": "Tên trường",
+            "company_name": "Tên công ty",
+            "agree_privacy_policy": "Tôi đồng ý với Chính sách Quyền riêng tư và Điều khoản",
+            "otp_field": "Nhập OTP gửi đến địa chỉ Email của bạn",
+            "password": "Mật khẩu",
+            "confirm_password": "Xác nhận mật khẩu",
+            "new_password": "Mật Khẩu Mới",
+            "confirm_new_password": "Xác Nhận Mật Khẩu Mới",
+            "address": "Địa chỉ",
+            "permission": "Quyền",
+            "role": "Vai trò",
+            "your_role": "Vai Trò Của Bạn",
+            "role_option_school": "Trường Học",
+            "role_option_parent": "Phụ Huynh",
+            "role_option_vendor": "Người Bán Hàng",
+            "country": "Quốc gia",
+            "business_name": "Tên doanh nghiệp",
+            "business_description": "Mô tả doanh nghiệp",
+            "no_of_venue": "Số lượng địa điểm",
+            "restaurant_name": "Tên nhà hàng",
+            "venue": "Địa điểm",
+            "opening_hours": "Giờ mở cửa",
+            "minimum_order": "Đơn hàng tối thiểu",
+            "vendor_name": "Tên nhà cung cấp",
+            "document_type": "Loại tài liệu",
+            "document": "Tài liệu",
+            "age": "Tuổi",
+            "contact_no": "Số liên lạc",
+            "parent_name": "Tên phụ huynh",
+            "kid_name": "Tên trẻ",
+            "grade": "Cấp",
+            "class": "Lớp học",
+            "gender": "Giới tính",
+            "weight": "Cân nặng",
+            "height": "Chiều cao",
+            "name": "Tên"
+        },
+        "placeholder": {
+            "name": "Nhập Tên",
+            "first_name": "Nhập tên",
+            "last_name": "Nhập họ",
+            "email_address": "Nhập Địa chỉ Email của Bạn",
+            "phone_number": "Nhập số điện thoại",
+            "message": "Gõ thông điệp của bạn",
+            "school_address": "Nhập địa chỉ trường học",
+            "school_name": "Nhập tên trường học",
+            "company_name": "Nhập tên công ty",
+            "password": "Nhập mật khẩu",
+            "confirm_password": "Nhập xác nhận mật khẩu",
+            "new_password": "Nhập Mật Khẩu Mới",
+            "confirm_new_password": "Nhập Xác Nhận Mật Khẩu Mới",
+            "address": "Gõ ở đây...",
+            "role": "Chọn Vai Trò",
+            "country": "Nhập Tên Quốc Gia",
+            "business_name": "Tên doanh nghiệp",
+            "business_description": "Mô tả doanh nghiệp",
+            "no_of_venue": "Số lượng địa điểm",
+            "open": "Mở",
+            "close": "Đóng",
+            "minimum_order": "Nhập đơn hàng tối thiểu",
+            "drop_upload_file": "Thả tập tin vào đây hoặc bấm vào để tải lên",
+            "document_type": "Nhập loại tên tài liệu",
+            "age": "Nhập tuổi",
+            "contact_no": "Nhập số liên lạc",
+            "gender": "Chọn giới tính",
+            "class": "Nhập lớp",
+            "weight": "Nhập trọng lượng",
+            "height": "Nhập chiều cao",
+            "reason": "Lý do"
+        },
+        "validation": {
+            "required": "Trường này là bắt buộc",
+            "email_address": "Địa chỉ email không hợp lệ",
+            "phone_number": "Vui lòng nhập số điện thoại hợp lệ bắt đầu với +",
+            "agree_privacy_policy": "Vui lòng đồng ý với Chính sách Quyền riêng tư và Điều khoản Sử dụng",
+            "exactly_6_digits": "Phải đúng 6 chữ số",
+            "passwords_must_match": "Mật khẩu phải trùng khớp",
+            "numeric": "Phải là một loại số",
+            "end_time_lessthan": "Thời gian kết thúc phải lớn hơn thời gian mở",
+            "address": "Địa chỉ là bắt buộc"
+        },
+        "button": {
+            "create": "Tạo",
+            "cancel": "Hủy",
+            "update": "Cập nhật",
+            "confirm": "Xác nhận",
+            "submit": "Nộp",
+            "Upload": "Tải lên",
+            "add_venue": "Thêm địa điểm",
+            "generate_request": "Tạo yêu cầu",
+            "add_bank_account": "Thêm tài khoản ngân hàng",
+            "remove_all": "Xóa tất cả",
+            "later": "Sau đó",
+            "add": "Thêm"
+        },
+        "dropdown": {
+            "genders": [
+                {
+                    "id": "male",
+                    "name": "Nam giới"
+                },
+                {
+                    "id": "female",
+                    "name": "Nữ giới"
+                }
+            ]
+        }
+    },
+    "common": {
+        "submit": "Gửi",
+        "sign_up": "Đăng ký",
+        "get_started": "Bắt đầu",
+        "join": "Tham gia",
+        "login": "Đăng nhập",
+        "welcome": "Chào mừng",
+        "get_in_touch": "Liên hệ",
+        "no_locations": "Không có địa điểm",
+        "approve": "Phê duyệt",
+        "reject": "Từ chối"
+    },
+    "footer": {
+        "subscribe_to_updates": "Đăng ký nhận cập nhật",
+        "subscribe_for_updates": "Đăng ký để nhận cập nhật",
+        "healthy_meal_string": "Cập nhật thông tin về các lựa chọn bữa ăn lành mạnh cho con bạn.",
+        "subscribe_for_updates_cooking_string": "Điều gì đó thú vị đang được chuẩn bị! Đăng ký để cập nhật thông tin về bữa ăn học đường lành mạnh.",
+        "subscribe": "Đăng ký",
+        "terms_and_policy": "Khi đăng ký, bạn đồng ý với Chính sách Bảo mật & Điều khoản của chúng tôi.",
+        "quick_link": "Liên kết nhanh",
+        "privacy_policy": "Chính sách bảo mật",
+        "follow_us": "Theo dõi chúng tôi",
+        "copy_right": "Bản quyền 2024 @",
+        "right_reserve": ", Bảo lưu mọi quyền",
+        "Foodishubs": "Foodishubs"
+    },
+    "page": {
+        "landing": {
+            "Foodishing_the_future": "Nuôi dưỡng tương lai",
+            "Foodishing": "Nuôi dưỡng",
+            "Foodishing_connection": "Kết nối: Trường học, Phụ huynh & Nhà cung cấp thực phẩm",
+            "building_healthy_community_string": "Xây dựng một cộng đồng lành mạnh cho phụ huynh, trẻ em, trường học và nhà cung cấp địa phương",
+            "welcome_string": "Chào mừng đến với Foodishubs, nơi chúng tôi cung cấp các lựa chọn bữa ăn lành mạnh cho trường học. Hãy tham gia cùng chúng tôi trong việc thúc đẩy các bữa ăn bổ dưỡng cho học sinh và làm cho việc ăn uống lành mạnh trở nên dễ tiếp cận cho các gia đình.",
+            "community_string": "Quản lý các đơn đặt bữa ăn lành mạnh cho cộng đồng trường học của bạn một cách dễ dàng",
+            "discover_string": "Khám phá cách nền tảng của chúng tôi kết nối trường học, phụ huynh và nhà cung cấp thực phẩm lành mạnh",
+            "sign_up_string": "Đăng ký rất đơn giản: các trường học, phụ huynh và nhà cung cấp có thể đăng ký chỉ trong vài phút",
+            "collaborate_string": "Cộng tác trong việc xây dựng thực đơn và lên lịch giao bữa ăn một cách dễ dàng.",
+            "school_vendor_string": "Các trường học và nhà cung cấp đồng ý về thực đơn, đảm bảo học sinh nhận được bữa ăn bổ dưỡng.",
+            "notification_string": "Nhận thông báo về các sự kiện và đơn đặt bữa ăn sắp tới",
+            "register_string": "Học sinh đã đăng ký sẽ nhận thông báo để đặt món trước",
+            "healthy_food": "Phong trào thực phẩm lành mạnh",
+            "join_our": "Tham gia cùng chúng tôi",
+            "discover_school_string": "Khám phá cách dễ dàng để cung cấp bữa ăn bổ dưỡng cho học sinh của bạn, đăng ký ngay hôm nay để kết nối với các nhà cung cấp địa phương và nâng cao các lựa chọn thực phẩm của trường bạn",
+            "healthy_eating_made_simple": "Ăn Uống Lành Mạnh Thật Đơn Giản",
+            "welcome_coming_soon_string": "Chào mừng đến với {{app_name}},<br> Hãy sẵn sàng cho một bất ngờ ngon miệng vào đầu năm 2025",
+            "get_ready_surprise_coming_string": "HÃY SẴN SÀNG CHO MỘT BẤT NGỜ THƠM NGON VÀO NĂM 2025"
+        },
+        "signUp": {
+            "join_string": "Tham gia phong trào",
+            "sign_up_string": "Đăng ký rất dễ dàng và đơn giản, cho dù bạn là trường học, phụ huynh hay nhà cung cấp. Chúng tôi có những lựa chọn phù hợp để bạn trở thành một phần của cộng đồng lành mạnh hơn.",
+            "select_string": "Chọn vai trò của bạn và đóng góp vào",
+            "community_string": "Phong trào ăn uống lành mạnh cho cộng đồng của chúng ta",
+            "simple_string": "Đăng ký trường học đơn giản",
+            "option_string": "Các trường học có thể dễ dàng đăng ký để cung cấp các lựa chọn bữa ăn lành mạnh",
+            "meal_string": "Đăng ký bữa ăn lành mạnh cho phụ huynh/trẻ em",
+            "order_string": "Phụ huynh và trẻ em có thể đăng ký để đặt món",
+            "catering_string": "Đăng ký nhà cung cấp cho dịch vụ ăn uống lành mạnh",
+            "nutritious_string": "Nhà cung cấp có thể tham gia để cung cấp bữa ăn bổ dưỡng"
+        },
+        "signUpSchool": {
+            "meal_string": "Bữa ăn lành mạnh được giao tận nơi",
+            "join_string": "Tham gia cùng chúng tôi trong việc cung cấp các bữa ăn bổ dưỡng giúp năng lượng và truyền cảm hứng cho học sinh của bạn mỗi ngày.",
+            "solution_string": "Tham gia cùng chúng tôi trong việc cung cấp giải pháp bữa ăn lành mạnh cho học sinh của bạn"
+        },
+        "signUpParent": {
+            "join_string": "Tham gia bữa ăn lành mạnh",
+            "school_string": "Đăng ký ngay hôm nay để truy cập các lựa chọn bữa ăn bổ dưỡng cho con bạn tại trường."
+        },
+        "signUpVendor": {
+            "join_string": "Tham gia mạng lưới của chúng tôi",
+            "community_string": "Trở thành nhà cung cấp và giao bữa ăn bổ dưỡng cho trường học và học sinh trong cộng đồng của bạn",
+            "solution_string": "Tham gia cùng chúng tôi trong việc cung cấp giải pháp bữa ăn lành mạnh cho học sinh của bạn"
+        },
+        "contactUs": {
+            "join_string": "Tham gia sáng kiến lành mạnh của chúng tôi",
+            "sign_up_string": "Chúng tôi sẵn sàng hỗ trợ bạn trong quá trình đăng ký",
+            "assist_string": "Chúng tôi sẵn sàng giúp đỡ bạn"
+        },
+        "login": {
+            "login_to_your_account": "Đăng nhập vào Tài khoản của Bạn",
+            "we_will_send_otp_string": "Chúng tôi sẽ gửi mã OTP qua SMS đến Địa chỉ Email của Bạn",
+            "send_otp": "Gửi OTP",
+            "login_with_password": "Đăng nhập bằng Email và Mật khẩu",
+            "login_with_otp": "Đăng nhập bằng OTP"
+        },
+        "verifyLogin": {
+            "otp": "OTP",
+            "enter_your_otp": "Nhập OTP của bạn",
+            "resend": "Gửi lại"
+        },
+        "forgotPassword": {
+            "reset_your_password": "Đặt lại mật khẩu của bạn",
+            "send": "Gửi",
+            "go_to_login": "Đi đến trang đăng nhập"
+        },
+        "user_management": {
+            "create_user": {
+                "create_user": "Tạo người dùng"
+            },
+            "update_user": {
+                "update_user": "Cập nhật người dùng"
+            },
+            "users": {
+                "first_name": "Tên",
+                "last_name": "Họ",
+                "email": "Địa chỉ Email",
+                "phone_no": "Số điện thoại",
+                "status": "Trạng thái người dùng",
+                "is_approved": "Quyền truy cập",
+                "is_not_approved": "Không có quyền truy cập"
+            }
+        },
+        "profile_management": {
+            "venue_details": "Chi tiết địa điểm",
+            "add_minimum_threshold": "thêm ngưỡng tối thiểu",
+            "doc_upload_hint": "giấy chứng nhận cá nhân (Hộ chiếu, CMND hoặc bất kỳ loại ID nào khác), giấy chứng nhận thực phẩm, giấy chứng nhận dinh dưỡng, bất kỳ tài liệu nào khác"
+        },
+        "parent_kid_management": {
+            "add_another_kid": "Thêm một đứa trẻ khác",
+            "add_kids_details": "Thêm thông tin chi tiết về trẻ em"
+        },
+        "vendor_management": {
+            "vendor_document_verification_requests": "Yêu cầu xác minh tài liệu nhà cung cấp",
+            "vendor_review": "Đánh giá nhà cung cấp",
+            "vendor_reject_title": "Từ chối nhà cung cấp",
+            "vendor_reject_text": "Vui lòng cung cấp lý do từ chối nhà cung cấp.",
+            "document_verification_requests": {
+                "document_list": "Danh sách tài liệu"
+            }
+        },
+        "vendor_profile": {
+            "title": "Chi tiết nhà cung cấp",
+            "button_title": "Tạm ngưng",
+            "vendor_name": "Tên nhà cung cấp:",
+            "country": "Quốc gia:",
+            "email_address": "Địa chỉ email:",
+            "phone_number": "Số điện thoại:",
+            "restaurant_name": "Tên nhà hàng:",
+            "business_description": "Mô tả doanh nghiệp:"
+        },
+        "common": {
+            "details": "Chi tiết",
+            "payment_method": "Phương thức thanh toán",
+            "upload_document": "tải tài liệu lên",
+            "account_number": "số tài khoản",
+            "ifs_code": "mã nếu",
+            "edit_information": "chỉnh sửa thông tin",
+            "reject_request ": "Từ chối yêu cầu",
+            "add_your_details": "Thêm thông tin chi tiết của bạn",
+            "school": "Trường học",
+            "parent": "cha mẹ",
+            "kids": "trẻ em",
+            "contact": "Liên hệ",
+            "review": "Ôn tập",
+            "review_details": "Đánh giá chi tiết",
+            "order_date": "Ngày đặt hàng"
+        }
+    },
+    "day_names": {
+        "full_names": {
+            "sunday": "Chủ nhật",
+            "monday": "Thứ hai",
+            "tuesday": "Thứ ba",
+            "wednesday": "Thứ Tư",
+            "thursday": "Thứ năm",
+            "friday": "Thứ sáu",
+            "saturday": "Thứ bảy"
+        },
+        "short_names": {
+            "sun": "Mặt trời",
+            "mon": "Thứ hai",
+            "tue": "thứ ba",
+            "wed": "Thứ tư",
+            "thu": "Thứ năm",
+            "fri": "Thứ sáu",
+            "sat": "Đã ngồi"
+        }
+    },
+    "sweet_alert": {
+        "user_activate": {
+            "title": "Bạn có chắc chắn muốn kích hoạt người dùng này không?",
+            "text": "Hành động này sẽ kích hoạt người dùng và họ có thể truy cập tài khoản của mình.",
+            "confirm_button": "Có, kích hoạt!",
+            "cancel_button": "Không, hủy bỏ!",
+            "success": "Người dùng đã được kích hoạt thành công!",
+            "ok": "Đồng ý"
+        },
+        "user_suspend": {
+            "title": "Bạn có chắc chắn muốn tạm ngừng người dùng này không?",
+            "text": "Hành động này sẽ tạm ngừng người dùng và họ sẽ không thể truy cập tài khoản của mình nữa.",
+            "confirm_button": "Có, tạm ngừng!",
+            "cancel_button": "Không, hủy bỏ!",
+            "success": "Người dùng đã bị tạm ngừng thành công!",
+            "ok": "Đồng ý"
+        },
+        "user_delete": {
+            "title": "Bạn có chắc chắn muốn xóa người dùng này không?",
+            "text": "Hành động này sẽ xóa người dùng và dữ liệu liên quan của họ vĩnh viễn.",
+            "confirm_button": "Có, xóa!",
+            "cancel_button": "Không, hủy bỏ!",
+            "success": "Người dùng đã được xóa thành công!",
+            "ok": "Đồng ý"
+        },
+        "vendor_approve": {
+            "title": "Bạn có chắc chắn muốn phê duyệt yêu cầu này không?",
+            "text": "Hành động này sẽ phê duyệt nhà cung cấp và có thể sử dụng nền tảng này",
+            "confirm_button": "Có, Phê duyệt!",
+            "cancel_button": "Không, Hủy bỏ!",
+            "success": "Người dùng đã được phê duyệt thành công!",
+            "ok": "Đồng ý"
+        }
+    },
+    "datatable": {
+        "contact_us_inquiry_table": {
+            "table_title": "Yêu cầu liên hệ"
+        },
+        "suspended_user_table": {
+            "table_title": "Người dùng bị đình chỉ"
+        },
+        "vendor_management_table": {
+            "table_title": "Danh sách tất cả nhà cung cấp"
+        },
+        "verification_request_Table": {
+            "table_title": "Yêu cầu xác minh tài liệu của nhà cung cấp"
+        },
+        "common": {
+            "footer_showing_entries": "Hiển thị {{startIndex}} đến {{endIndex}} trong số {{totalFiltered}} mục",
+            "no_data_available": "Không có dữ liệu",
+            "no_matching_data_found": "Không tìm thấy dữ liệu phù hợp",
+            "show": "Hiển thị",
+            "search_placeholder": "Tìm kiếm tại đây"
+        },
+        "column": {
+            "serial_number": "Serial No.",
+            "first_name": "Tên",
+            "last_name": "Họ",
+            "vendor_name": "Tên nhà cung cấp",
+            "email": "Email",
+            "phone_no": "Số điện thoại",
+            "contact": "liên hệ",
+            "role": "Vai trò",
+            "country": "Quốc gia",
+            "message": "Tin nhắn",
+            "status": "Trạng thái",
+            "vendor_status": "Trạng thái nhà cung cấp",
+            "created_at": "Ngày tạo",
+            "number_of_venue": "Số lượng địa điểm",
+            "actions": "Hành động",
+            "view_menu": "Xem Menu"
+        }
+    }
+}

@@ -1,0 +1,386 @@
+{
+    "navigation": {
+        "home": "Beranda",
+        "about": "Tentang",
+        "contact_us": "Hubungi Kami",
+        "dashboard": "Dasbor",
+        "user_management": "Manajemen Pengguna",
+        "about_us": "Tentang Kami",
+        "forgot_password": "Lupa Kata Sandi",
+        "profile_management": "Manajemen Profil",
+        "vendor_management": "Manajemen Vendor",
+        "parents_profile": "Profil Orang Tua",
+        "kids_profile_management": "Manajemen Profil Anak",
+        "food_chart_creation": "Pembuatan Grafik Makanan",
+        "add_staff": "Tambah Staf"
+    },
+    "form": {
+        "label": {
+            "first_name": "Nama Depan",
+            "last_name": "Nama Belakang",
+            "email": "Email",
+            "email_address": "Alamat Email",
+            "phone_number": "Nomor Telepon",
+            "phone_number_optional": "Nomor Telepon (Opsional)",
+            "message": "Pesan Anda",
+            "school_address": "Alamat Sekolah",
+            "school_name": "Nama Sekolah",
+            "company_name": "Nama Perusahaan",
+            "agree_privacy_policy": "Saya setuju dengan Kebijakan Privasi & Syarat",
+            "otp_field": "Masukkan OTP yang dikirim ke Alamat Email Anda",
+            "password": "Kata Sandi",
+            "confirm_password": "Konfirmasi Kata Sandi",
+            "new_password": "Kata Sandi Baru",
+            "confirm_new_password": "Konfirmasi Kata Sandi Baru",
+            "address": "Alamat",
+            "permission": "Izin",
+            "role": "Peran",
+            "your_role": "Peran Anda",
+            "role_option_school": "Sekolah",
+            "role_option_parent": "Orang Tua",
+            "role_option_vendor": "Penjual",
+            "country": "Negara",
+            "business_name": "Nama Bisnis",
+            "business_description": "Deskripsi Bisnis",
+            "no_of_venue": "Jumlah Tempat",
+            "restaurant_name": "Nama Restoran",
+            "venue": "Lokasi",
+            "opening_hours": "Jam Buka",
+            "minimum_order": "Minimal Pemesanan",
+            "vendor_name": "Nama Penjual",
+            "document_type": "Jenis Dokumen",
+            "document": "Dokumen",
+            "age": "Usia",
+            "contact_no": "Nomor kontak",
+            "parent_name": "Nama Orang Tua",
+            "kid_name": "Nama Anak",
+            "grade": "Nilai",
+            "class": "Kelas",
+            "gender": "Jenis kelamin",
+            "weight": "Berat",
+            "height": "Tinggi",
+            "name": "Nama"
+        },
+        "placeholder": {
+            "name": "Masukkan Nama",
+            "first_name": "Masukkan Nama Depan",
+            "last_name": "Masukkan Nama Belakang",
+            "email_address": "Masukkan Alamat Email Anda",
+            "phone_number": "Masukkan Nomor Telepon",
+            "message": "Ketik Pesan Anda",
+            "school_address": "Masukkan Alamat Sekolah",
+            "school_name": "Masukkan Nama Sekolah",
+            "company_name": "Masukkan Nama Perusahaan",
+            "password": "Masukkan Kata Sandi",
+            "confirm_password": "Masukkan Konfirmasi Kata Sandi",
+            "new_password": "Masukkan Kata Sandi Baru",
+            "confirm_new_password": "Masukkan Konfirmasi Kata Sandi Baru",
+            "address": "Ketik di sini...",
+            "role": "Pilih Peran",
+            "country": "Masukkan Nama Negara",
+            "business_name": "Nama Bisnis",
+            "business_description": "Deskripsi Bisnis",
+            "no_of_venue": "Jumlah Tempat",
+            "open": "Membuka",
+            "close": "Menutup",
+            "minimum_order": "Masukkan Minimum Pesanan",
+            "drop_upload_file": "Letakkan File di sini atau Klik untuk Mengunggah",
+            "document_type": "Masukkan Jenis Nama Dokumen",
+            "age": "Masukkan Usia",
+            "contact_no": "Masukkan Nomor Kontak",
+            "gender": "Pilih Jenis Kelamin",
+            "class": "Masuk Kelas",
+            "weight": "Masukkan Berat",
+            "height": "Masukkan Tinggi",
+            "reason": "Alasan"
+        },
+        "validation": {
+            "required": "Kolom ini wajib diisi",
+            "email_address": "Alamat email tidak valid",
+            "phone_number": "Masukkan nomor telepon yang valid yang dimulai dengan +",
+            "agree_privacy_policy": "Silakan setujui Kebijakan Privasi & Syarat Penggunaan",
+            "exactly_6_digits": "Harus tepat 6 digit",
+            "passwords_must_match": "Kata sandi harus sama",
+            "numeric": "Harus berupa tipe angka",
+            "end_time_lessthan": "Waktu berakhir harus lebih lama dari waktu terbuka",
+            "address": "Alamat Wajib Diisi"
+        },
+        "button": {
+            "create": "Buat",
+            "cancel": "Batal",
+            "update": "Memperbarui",
+            "confirm": "Mengonfirmasi",
+            "submit": "Kirim",
+            "Upload": "Mengunggah",
+            "add_venue": "Tambahkan Tempat",
+            "generate_request": "Hasilkan Permintaan",
+            "add_bank_account": "Tambahkan Rekening Bank",
+            "remove_all": "Hapus semua",
+            "later": "Nanti",
+            "add": "Tambah"
+        },
+        "dropdown": {
+            "genders": [
+                {
+                    "id": "male",
+                    "name": "Pria"
+                },
+                {
+                    "id": "female",
+                    "name": "Perempuan"
+                }
+            ]
+        }
+    },
+    "common": {
+        "submit": "Kirim",
+        "sign_up": "Daftar",
+        "get_started": "Mulai",
+        "join": "Bergabung",
+        "login": "Masuk",
+        "welcome": "Selamat Datang",
+        "get_in_touch": "Hubungi Kami",
+        "no_locations": "Tidak ada lokasi",
+        "approve": "Setujui",
+        "reject": "Tolak"
+    },
+    "footer": {
+        "subscribe_to_updates": "Berlangganan untuk Pembaruan",
+        "subscribe_for_updates": "Berlangganan untuk Pembaruan",
+        "healthy_meal_string": "Tetap terinformasi tentang pilihan makanan sehat untuk anak-anak Anda.",
+        "subscribe_for_updates_cooking_string": "Ada sesuatu yang menarik sedang dimasak! Berlangganan untuk tetap mendapatkan informasi tentang makanan sehat di sekolah.",
+        "subscribe": "Berlangganan",
+        "terms_and_policy": "Dengan berlangganan, Anda menyetujui Kebijakan Privasi & Ketentuan kami.",
+        "quick_link": "Tautan Cepat",
+        "privacy_policy": "Kebijakan Privasi",
+        "follow_us": "Ikuti Kami",
+        "copy_right": "Hak Cipta 2024 @",
+        "right_reserve": ", Semua hak dilindungi",
+        "Foodishubs": "Foodishubs"
+    },
+    "page": {
+        "landing": {
+            "Foodishing_the_future": "Memberi Nutrisi untuk Masa Depan",
+            "Foodishing": "Memberi Nutrisi",
+            "Foodishing_connection": "Koneksi: Sekolah, Orang Tua & Penyedia Makanan",
+            "building_healthy_community_string": "Membangun Komunitas Sehat untuk Orang Tua, Anak, Sekolah, & Vendor Lokal",
+            "welcome_string": "Selamat datang di Foodishubs, tempat kami menawarkan pilihan makanan sehat untuk sekolah. Bergabunglah bersama kami dalam mempromosikan makanan bergizi untuk siswa dan membuat makan sehat lebih mudah diakses oleh keluarga.",
+            "community_string": "Kelola pesanan makanan sehat untuk komunitas sekolah Anda dengan mudah",
+            "discover_string": "Temukan bagaimana platform kami menghubungkan sekolah, orang tua & vendor makanan sehat",
+            "sign_up_string": "Mendaftar itu mudah: sekolah, orang tua & vendor dapat mendaftar dalam hitungan menit",
+            "collaborate_string": "Bekerja sama dalam menu dan jadwalkan pengiriman makanan dengan mudah.",
+            "school_vendor_string": "Sekolah dan vendor menyetujui menu, memastikan siswa menerima makanan bergizi.",
+            "notification_string": "Tetap terinformasi dengan pemberitahuan tentang acara makanan dan pesanan yang akan datang",
+            "register_string": "Siswa yang terdaftar akan menerima pemberitahuan untuk memesan makanan sebelumnya",
+            "healthy_food": "Gerakan Makanan Sehat",
+            "join_our": "Bergabung dengan Kami",
+            "discover_school_string": "Temukan betapa mudahnya memberikan makanan bergizi untuk siswa Anda, daftar sekarang untuk terhubung dengan vendor lokal dan meningkatkan pilihan makanan di sekolah Anda",
+            "healthy_eating_made_simple": "Makan Sehat Jadi Mudah",
+            "welcome_coming_soon_string": "Selamat datang di {{app_name}},<br> Bersiaplah untuk kejutan lezat yang dimulai tahun 2025",
+            "get_ready_surprise_coming_string": "BERSIAPLAH UNTUK KEJUTAN LEZAT YANG DATANG DI 2025"
+        },
+        "signUp": {
+            "join_string": "Bergabung dengan Gerakan",
+            "sign_up_string": "Mendaftar itu mudah dan langsung, baik Anda seorang sekolah, orang tua, atau vendor. Kami memiliki pilihan yang disesuaikan untuk Anda menjadi bagian dari komunitas yang lebih sehat.",
+            "select_string": "Pilih Peran Anda dan Kontribusi pada",
+            "community_string": "Gerakan Makan Sehat untuk Komunitas Kami",
+            "simple_string": "Pendaftaran Sekolah yang Mudah",
+            "option_string": "Sekolah dapat dengan mudah mendaftar untuk menawarkan pilihan makanan sehat",
+            "meal_string": "Pendaftaran Orang Tua/Anak untuk Makanan Sehat",
+            "order_string": "Orang tua dan anak-anak dapat mendaftar untuk memesan",
+            "catering_string": "Pendaftaran Vendor untuk Penyediaan Makanan Sehat",
+            "nutritious_string": "Vendor dapat bergabung untuk menyediakan makanan bergizi"
+        },
+        "signUpSchool": {
+            "meal_string": "Makanan Sehat yang Dikirimkan",
+            "join_string": "Bergabunglah bersama kami dalam menyediakan makanan bergizi yang memberikan energi dan menginspirasi siswa Anda setiap hari.",
+            "solution_string": "Bergabunglah bersama kami dalam menyediakan solusi makanan sehat untuk siswa Anda"
+        },
+        "signUpParent": {
+            "join_string": "Bergabung dengan Makanan Sehat",
+            "school_string": "Daftar hari ini untuk mengakses pilihan makanan bergizi yang tersedia untuk anak Anda di sekolah."
+        },
+        "signUpVendor": {
+            "join_string": "Bergabung dengan Jaringan Kami",
+            "community_string": "Jadilah vendor dan kirimkan makanan bergizi ke sekolah & siswa di komunitas Anda",
+            "solution_string": "Bergabunglah bersama kami dalam menyediakan solusi makanan sehat untuk siswa Anda"
+        },
+        "contactUs": {
+            "join_string": "Bergabung dengan Inisiatif Sehat Kami",
+            "sign_up_string": "Kami di sini untuk membantu Anda mendaftar",
+            "assist_string": "Kami di sini untuk membantu Anda"
+        },
+        "login": {
+            "login_to_your_account": "Masuk ke Akun Anda",
+            "we_will_send_otp_string": "Kami akan mengirim OTP ke Alamat Email Anda melalui SMS",
+            "send_otp": "Kirim OTP",
+            "login_with_password": "Masuk dengan Email & Kata Sandi",
+            "login_with_otp": "Masuk dengan OTP"
+        },
+        "verifyLogin": {
+            "otp": "OTP",
+            "enter_your_otp": "Masukkan OTP Anda",
+            "resend": "Kirim Ulang"
+        },
+        "forgotPassword": {
+            "reset_your_password": "Atur Ulang Kata Sandi Anda",
+            "send": "Kirim",
+            "go_to_login": "Ke Halaman Login"
+        },
+        "user_management": {
+            "create_user": {
+                "create_user": "Buat Pengguna"
+            },
+            "update_user": {
+                "update_user": "Perbarui Pengguna"
+            },
+            "users": {
+                "first_name": "Nama Depan",
+                "last_name": "Nama Belakang",
+                "email": "Alamat Email",
+                "phone_no": "Nomor Telepon",
+                "status": "Status Pengguna",
+                "is_approved": "Akses",
+                "is_not_approved": "Tidak Akses"
+            }
+        },
+        "profile_management": {
+            "venue_details": "Detail Tempat",
+            "add_minimum_threshold": "Tambahkan Ambang Minimum",
+            "doc_upload_hint": "sertifikat pribadi (Paspor, Kartu Tanda Penduduk, atau tanda pengenal lainnya), sertifikat makanan, sertifikat Ahli Gizi, Dokumen lainnya"
+        },
+        "parent_kid_management": {
+            "add_another_kid": "Tambahkan anak lain",
+            "add_kids_details": "Tambahkan Detail Anak"
+        },
+        "vendor_management": {
+            "vendor_document_verification_requests": "Permintaan verifikasi dokumen vendor",
+            "vendor_review": "Ulasan vendor",
+            "vendor_reject_title": "Tolak Vendor",
+            "vendor_reject_text": "Harap berikan alasan untuk menolak vendor.",
+            "document_verification_requests": {
+                "document_list": "Daftar Dokumen"
+            }
+        },
+        "vendor_profile": {
+            "title": "Detail Vendor",
+            "button_title": "Tangguhkan",
+            "vendor_name": "Nama Vendor:",
+            "country": "Negara:",
+            "email_address": "Alamat Email:",
+            "phone_number": "Nomor Telepon:",
+            "restaurant_name": "Nama Restoran:",
+            "business_description": "Deskripsi Bisnis:"
+        },
+        "common": {
+            "details": "Detail",
+            "payment_method": "Metode Pembayaran",
+            "upload_document": "Unggah Dokumen",
+            "account_number": "Nomor Rekening",
+            "ifs_code": "Kode IFC",
+            "edit_information": "Sunting Informasi",
+            "reject_request ": "Tolak Permintaan",
+            "add_your_details": "Tambahkan Detail Anda",
+            "school": "Sekolah",
+            "parent": "Induk",
+            "kids": "Anak-anak",
+            "contact": "Kontak",
+            "review": "Tinjauan",
+            "review_details": "Tinjau Detail",
+            "order_date": "Tanggal Pemesanan"
+        }
+    },
+    "day_names": {
+        "full_names": {
+            "sunday": "Minggu",
+            "monday": "Senin",
+            "tuesday": "Selasa",
+            "wednesday": "Rabu",
+            "thursday": "Kamis",
+            "friday": "Jumat",
+            "saturday": "Sabtu"
+        },
+        "short_names": {
+            "sun": "Matahari",
+            "mon": "Senin",
+            "tue": "Sel",
+            "wed": "menikahi",
+            "thu": "Kamis",
+            "fri": "Jum",
+            "sat": "Duduk"
+        }
+    },
+    "sweet_alert": {
+        "user_activate": {
+            "title": "Apakah Anda yakin ingin mengaktifkan pengguna ini?",
+            "text": "Tindakan ini akan mengaktifkan pengguna dan mereka dapat mengakses akun mereka.",
+            "confirm_button": "Ya, aktifkan!",
+            "cancel_button": "Tidak, batal!",
+            "success": "Pengguna berhasil diaktifkan!",
+            "ok": "Oke"
+        },
+        "user_suspend": {
+            "title": "Apakah Anda yakin ingin menangguhkan pengguna ini?",
+            "text": "Tindakan ini akan menangguhkan pengguna dan mereka tidak akan dapat mengakses akun mereka.",
+            "confirm_button": "Ya, tangguhkan!",
+            "cancel_button": "Tidak, batal!",
+            "success": "Pengguna berhasil ditangguhkan!",
+            "ok": "Oke"
+        },
+        "user_delete": {
+            "title": "Apakah Anda yakin ingin menghapus pengguna ini?",
+            "text": "Tindakan ini akan menghapus pengguna secara permanen beserta data terkait mereka.",
+            "confirm_button": "Ya, hapus!",
+            "cancel_button": "Tidak, batal!",
+            "success": "Pengguna berhasil dihapus!",
+            "ok": "Oke"
+        },
+        "vendor_approve": {
+            "title": "Apakah Anda yakin ingin menyetujui permintaan ini?",
+            "text": "Tindakan ini akan menyetujui vendor dan dapat menggunakan platform ini",
+            "confirm_button": "Ya, Setujui!",
+            "cancel_button": "Tidak, Batalkan!",
+            "success": "Pengguna berhasil disetujui!",
+            "ok": "Oke"
+        }
+    },
+    "datatable": {
+        "contact_us_inquiry_table": {
+            "table_title": "Pertanyaan Hubungi Kami"
+        },
+        "suspended_user_table": {
+            "table_title": "Pengguna yang Ditangguhkan"
+        },
+        "vendor_management_table": {
+            "table_title": "Daftar Semua Vendor"
+        },
+        "verification_request_Table": {
+            "table_title": "Permintaan Verifikasi Dokumen Vendor"
+        },
+        "common": {
+            "footer_showing_entries": "Menampilkan {{startIndex}} hingga {{endIndex}} dari {{totalFiltered}} entri",
+            "no_data_available": "Tidak ada data yang tersedia",
+            "no_matching_data_found": "Tidak ditemukan data yang sesuai",
+            "show": "Tampilkan",
+            "search_placeholder": "Cari di sini"
+        },
+        "column": {
+            "serial_number": "No. Seri",
+            "first_name": "Nama Depan",
+            "last_name": "Nama Belakang",
+            "vendor_name": "Nama Vendor",
+            "email": "Email",
+            "phone_no": "Nomor Telepon",
+            "contact": "kontak",
+            "role": "Peran",
+            "country": "Negara",
+            "message": "Pesan",
+            "status": "Status",
+            "vendor_status": "Status Vendor",
+            "created_at": "Dibuat Pada",
+            "number_of_venue": "Jumlah Tempat",
+            "actions": "Aksi",
+            "view_menu": "Lihat Menu"
+        }
+    }
+}

@@ -1,0 +1,386 @@
+{
+    "navigation": {
+        "home": "Bahay",
+        "about": "Tungkol",
+        "contact_us": "Makipag-ugnayan sa Amin",
+        "dashboard": "Dashboard",
+        "user_management": "Pamamahala ng Gumagamit",
+        "about_us": "Tungkol sa Amin",
+        "forgot_password": "Nakalimutan ang Password",
+        "profile_management": "Pamamahala ng Profile",
+        "vendor_management": "Pamamahala ng Vendor",
+        "parents_profile": "Profile ng Magulang",
+        "kids_profile_management": "Pamamahala ng Profile ng mga Bata",
+        "food_chart_creation": "Paglikha ng Tsart ng Pagkain",
+        "add_staff": "Magdagdag ng Kawani"
+    },
+    "form": {
+        "label": {
+            "first_name": "Unang Pangalan",
+            "last_name": "Huling Pangalan",
+            "email": "Email",
+            "email_address": "Email Address",
+            "phone_number": "Numero ng Telepono",
+            "phone_number_optional": "Numero ng Telepono (Optional)",
+            "message": "Iyong Mensahe",
+            "school_address": "Tirahan ng Paaralan",
+            "school_name": "Pangalan ng Paaralan",
+            "company_name": "Pangalan ng Kumpanya",
+            "agree_privacy_policy": "Sumasang-ayon ako sa Patakaran sa Privacy at Mga Tuntunin",
+            "otp_field": "Ilagay ang OTP na ipinadala sa iyong Email Address",
+            "password": "Password",
+            "confirm_password": "Kumpirmahin ang Password",
+            "new_password": "Bagong Password",
+            "confirm_new_password": "Kumpirmahin ang Bagong Password",
+            "address": "Tirahan",
+            "permission": "Pahintulot",
+            "role": "Papel",
+            "your_role": "Ang Iyong Papel",
+            "role_option_school": "Paaralan",
+            "role_option_parent": "Magulang",
+            "role_option_vendor": "Nagbebenta",
+            "country": "Bansa",
+            "business_name": "Pangalan ng Negosyo",
+            "business_description": "Paglalarawan ng Negosyo",
+            "no_of_venue": "Bilang ng Venue",
+            "restaurant_name": "Pangalan ng Restaurant",
+            "venue": "Venue",
+            "opening_hours": "Mga Oras ng Pagbubukas",
+            "minimum_order": "Minimum Order",
+            "vendor_name": "Pangalan ng Vendor",
+            "document_type": "Uri ng Dokumento",
+            "document": "Dokumento",
+            "age": "Edad",
+            "contact_no": "Contact no",
+            "parent_name": "Pangalan ng Magulang",
+            "kid_name": "Pangalan ng Bata",
+            "grade": "Grade",
+            "class": "Klase",
+            "gender": "Kasarian",
+            "weight": "Timbang",
+            "height": "taas",
+            "name": "Pangalan"
+        },
+        "placeholder": {
+            "name": "Ilagay ang Pangalan",
+            "first_name": "Ilagay ang Unang Pangalan",
+            "last_name": "Ilagay ang Huling Pangalan",
+            "email_address": "Ilagay ang Iyong Email Address",
+            "phone_number": "Ilagay ang Numero ng Telepono",
+            "message": "I-type ang Iyong Mensahe",
+            "school_address": "Ilagay ang Tirahan ng Paaralan",
+            "school_name": "Ilagay ang Pangalan ng Paaralan",
+            "company_name": "Ilagay ang Pangalan ng Kumpanya",
+            "password": "Ilagay ang Password",
+            "confirm_password": "Ilagay ang Kumpirmadong Password",
+            "new_password": "Ilagay ang Bagong Password",
+            "confirm_new_password": "Ilagay ang Kumpirmahin ang Bagong Password",
+            "address": "I-type dito...",
+            "role": "Pumili ng Papel",
+            "country": "Ilagay ang Pangalan ng Bansa",
+            "business_name": "Pangalan ng Negosyo",
+            "business_description": "Paglalarawan ng Negosyo",
+            "no_of_venue": "Bilang ng Venue",
+            "open": "Bukas",
+            "close": "Isara",
+            "minimum_order": "Ilagay ang Minimum Order",
+            "drop_upload_file": "I-drop ang mga File dito o I-click upang Mag-upload",
+            "document_type": "Ilagay ang Uri ng Pangalan ng Dokumento",
+            "age": "Ipasok ang Edad",
+            "contact_no": "Ilagay ang Contact No",
+            "gender": "Piliin ang Kasarian",
+            "class": "Pumasok sa Klase",
+            "weight": "Ipasok ang Timbang",
+            "height": "Ipasok ang Taas",
+            "reason": "Dahilan"
+        },
+        "validation": {
+            "required": "Kinakailangan ang patlang na ito",
+            "email_address": "Ang email address ay hindi wasto",
+            "phone_number": "Maglagay ng wastong numero ng telepono na nagsisimula sa +",
+            "agree_privacy_policy": "Mangyaring sumang-ayon sa Patakaran sa Privacy at Mga Tuntunin",
+            "exactly_6_digits": "Dapat eksaktong 6 na numero",
+            "passwords_must_match": "Ang mga password ay dapat magkatugma",
+            "numeric": "Dapat ay isang uri ng numero",
+            "end_time_lessthan": "Ang oras ng pagtatapos ay dapat na mas malaki kaysa sa bukas na oras",
+            "address": "Kinakailangan ang Address"
+        },
+        "button": {
+            "create": "Lumikha",
+            "cancel": "I-cancel",
+            "update": "Update",
+            "confirm": "Kumpirmahin",
+            "submit": "Isumite",
+            "Upload": "Mag-upload",
+            "add_venue": "Magdagdag ng Venue",
+            "generate_request": "Bumuo ng Kahilingan",
+            "add_bank_account": "Magdagdag ng Bank Account",
+            "remove_all": "Alisin Lahat",
+            "later": "Mamaya",
+            "add": "Idagdag"
+        },
+        "dropdown": {
+            "genders": [
+                {
+                    "id": "male",
+                    "name": "Lalaki"
+                },
+                {
+                    "id": "female",
+                    "name": "Babae"
+                }
+            ]
+        }
+    },
+    "common": {
+        "submit": "Ipadala",
+        "sign_up": "Mag-sign Up",
+        "get_started": "Magsimula",
+        "join": "Sumali",
+        "login": "Mag-login",
+        "welcome": "Maligayang Pagdating",
+        "get_in_touch": "Makipag-ugnayan",
+        "no_locations": "Walang mga lokasyon",
+        "approve": "Aprubahan",
+        "reject": "Tanggihan"
+    },
+    "footer": {
+        "subscribe_to_updates": "Mag-subscribe sa Mga Update",
+        "subscribe_for_updates": "Mag-subscribe Para sa Mga Update",
+        "healthy_meal_string": "Manatiling updated tungkol sa mga malusog na pagkain para sa iyong mga anak.",
+        "subscribe_for_updates_cooking_string": "May nakaka-excite na nangyayari! Mag-subscribe upang manatiling may impormasyon tungkol sa mga masustansyang pagkain sa paaralan.",
+        "subscribe": "Mag-subscribe",
+        "terms_and_policy": "Sa pamamagitan ng Pag-subscribe, tinatanggap mo ang aming Patakaran sa Pagkapribado at Mga Tuntunin.",
+        "quick_link": "Mabilis na Link",
+        "privacy_policy": "Patakaran sa Pagkapribado",
+        "follow_us": "Sundin Kami",
+        "copy_right": "Copyright 2024 @",
+        "right_reserve": ", Lahat ng karapatan ay nakalaan",
+        "Foodishubs": "Foodishubs"
+    },
+    "page": {
+        "landing": {
+            "Foodishing_the_future": "Pinapalakas ang Kinabukasan",
+            "Foodishing": "Pagpapalusog",
+            "Foodishing_connection": "Mga Koneksyon: Paaralan, Magulang & Tagapagbigay ng Pagkain",
+            "building_healthy_community_string": "Pagbuo ng Isang Malusog na Komunidad para sa mga Magulang, Bata, Paaralan, at Lokal na Mga Tindero",
+            "welcome_string": "Maligayang pagdating sa Foodishubs, kung saan kami ay nag-aalok ng malusog na mga opsyon para sa mga pagkain sa paaralan. Sumali sa amin sa pagpapalaganap ng mga masustansyang pagkain para sa mga mag-aaral at paggawa ng malusog na pagkain na naaabot ng mga pamilya.",
+            "community_string": "Madaling pamahalaan ang mga malusog na order ng pagkain para sa iyong komunidad sa paaralan",
+            "discover_string": "Alamin kung paano kami nag-uugnay sa paaralan, magulang at mga tagapagbigay ng malusog na pagkain",
+            "sign_up_string": "Madaling mag-sign up: mga paaralan, magulang at vendor ay maaaring magparehistro sa loob ng ilang minuto",
+            "collaborate_string": "Makipagtulungan sa mga Menu at I-schedule ang paghahatid ng pagkain nang madali.",
+            "school_vendor_string": "Nagkakasunduan ang mga paaralan at mga vendor sa mga menu, tinitiyak na makakakuha ang mga mag-aaral ng masustansyang pagkain.",
+            "notification_string": "Manatiling updated sa mga notification tungkol sa mga paparating na kaganapan ng pagkain at mga order",
+            "register_string": "Ang mga rehistradong mag-aaral ay makakatanggap ng mga alerto para sa mga order ng pagkain nang maaga",
+            "healthy_food": "Paggalak ng Malusog na Pagkain",
+            "join_our": "Sumali sa Aming",
+            "discover_school_string": "Alamin kung gaano kadali magbigay ng masustansyang pagkain para sa iyong mga mag-aaral, mag-sign up ngayon upang kumonekta sa mga lokal na vendor at pagandahin ang mga alok ng pagkain sa iyong paaralan",
+            "healthy_eating_made_simple": "Simpleng Masustansiyang Pagkain",
+            "welcome_coming_soon_string": "Maligayang pagdating sa {{app_name}},<br> Maghanda para sa masarap na sorpresa sa simula ng 2025",
+            "get_ready_surprise_coming_string": "MAGHANDA PARA SA MASARAP NA SORPRESA NA DARATING SA 2025"
+        },
+        "signUp": {
+            "join_string": "Sumali sa Paggalak",
+            "sign_up_string": "Madali at tuwid ang proseso ng pag-sign up, kung ikaw ay isang paaralan, magulang, o vendor. May mga pagpipilian kaming inihanda upang maging bahagi ka ng isang mas malusog na komunidad.",
+            "select_string": "Pumili ng Iyong Papel at Mag-ambag sa",
+            "community_string": "Paggalak ng Malusog na Pagkain para sa Aming Komunidad",
+            "simple_string": "Madaling Pag-sign Up ng Paaralan",
+            "option_string": "Madaling makapagparehistro ang mga paaralan upang mag-alok ng malusog na mga opsyon sa pagkain",
+            "meal_string": "Pag-sign Up ng Magulang/Bata para sa Malusog na Pagkain",
+            "order_string": "Maaaring mag-sign up ang magulang at mga bata para mag-order",
+            "catering_string": "Pag-sign Up ng Vendor para sa Malusog na Pagkain",
+            "nutritious_string": "Maaaring sumali ang mga vendor upang magbigay ng masustansyang pagkain"
+        },
+        "signUpSchool": {
+            "meal_string": "Malusog na Pagkain na Ipinapadala",
+            "join_string": "Sumali sa amin sa paghahatid ng mga masustansyang pagkain na magpapalakas at magbibigay inspirasyon sa iyong mga mag-aaral araw-araw.",
+            "solution_string": "Sumali sa amin sa pagbibigay ng malusog na mga solusyon sa pagkain para sa iyong mga mag-aaral"
+        },
+        "signUpParent": {
+            "join_string": "Sumali sa Malusog na Pagkain",
+            "school_string": "Mag-sign up ngayon upang makuha ang mga masustansyang pagkain para sa iyong anak sa paaralan."
+        },
+        "signUpVendor": {
+            "join_string": "Sumali sa Aming Network",
+            "community_string": "Maging isang vendor at maghatid ng masustansyang pagkain sa mga paaralan at mag-aaral sa iyong komunidad",
+            "solution_string": "Sumali sa amin sa pagbibigay ng malusog na mga solusyon sa pagkain para sa iyong mga mag-aaral"
+        },
+        "contactUs": {
+            "join_string": "Sumali sa Aming Malusog na Inisyatiba",
+            "sign_up_string": "Narito kami upang tumulong sa iyong pag-sign up",
+            "assist_string": "Narito kami upang tumulong sa iyo"
+        },
+        "login": {
+            "login_to_your_account": "Mag-login sa Iyong Account",
+            "we_will_send_otp_string": "Magpapadala kami ng OTP sa Iyong Email Address",
+            "send_otp": "Ipadala ang OTP",
+            "login_with_password": "Mag-login gamit ang Email at Password",
+            "login_with_otp": "Mag-login gamit ang OTP"
+        },
+        "verifyLogin": {
+            "otp": "OTP",
+            "enter_your_otp": "Ilagay ang iyong OTP",
+            "resend": "Ipadala Muli"
+        },
+        "forgotPassword": {
+            "reset_your_password": "I-reset ang Iyong Password",
+            "send": "Magpadala",
+            "go_to_login": "Pumunta sa Pag-login"
+        },
+        "user_management": {
+            "create_user": {
+                "create_user": "Lumikha ng User"
+            },
+            "update_user": {
+                "update_user": "I-update ang User"
+            },
+            "users": {
+                "first_name": "Pangalan",
+                "last_name": "Apelyido",
+                "email": "Email Address",
+                "phone_no": "Numero ng Telepono",
+                "status": "Katayuan ng User",
+                "is_approved": "Access",
+                "is_not_approved": "Walang Access"
+            }
+        },
+        "profile_management": {
+            "venue_details": "Mga Detalye ng Lugar",
+            "add_minimum_threshold": "Magdagdag ng Minimum Threshold",
+            "doc_upload_hint": "mga personal na sertipiko (Passport, National ID o anumang iba pang anyo ng ID), mga sertipiko ng pagkain, sertipiko ng Nutritionist, Anumang iba pang mga dokumento"
+        },
+        "parent_kid_management": {
+            "add_another_kid": "Magdagdag ng isa pang bata",
+            "add_kids_details": "Magdagdag ng Mga Detalye ng Bata"
+        },
+        "vendor_management": {
+            "vendor_document_verification_requests": "Mga kahilingan para sa pag-verify ng dokumento ng vendor",
+            "vendor_review": "Pagsusuri ng vendor",
+            "vendor_reject_title": "Tanggihan ang Vendor",
+            "vendor_reject_text": "Mangyaring magbigay ng dahilan para tanggihan ang vendor.",
+            "document_verification_requests": {
+                "document_list": "Listahan ng Dokumento"
+            }
+        },
+        "vendor_profile": {
+            "title": "Detalye ng Vendor",
+            "button_title": "Suspendihin",
+            "vendor_name": "Pangalan ng Vendor:",
+            "country": "Bansa:",
+            "email_address": "Email Address:",
+            "phone_number": "Numero ng Telepono:",
+            "restaurant_name": "Pangalan ng Restawran:",
+            "business_description": "Deskripsyon ng Negosyo:"
+        },
+        "common": {
+            "details": "Mga Detalye",
+            "payment_method": "Paraan ng Pagbabayad",
+            "upload_document": "Mag-upload ng Dokumento",
+            "account_number": "Account Numero",
+            "ifs_code": "IFC code",
+            "edit_information": "I-edit ang Impormasyon",
+            "reject_request ": "Tanggihan ang Kahilingan",
+            "add_your_details": "Idagdag ang Iyong Mga Detalye",
+            "school": "Paaralan",
+            "parent": "Magulang",
+            "kids": "Mga bata",
+            "contact": "Makipag-ugnayan",
+            "review": "Balik-aral",
+            "review_details": "Mga Detalye ng Review",
+            "order_date": "Petsa ng Order"
+        }
+    },
+    "day_names": {
+        "full_names": {
+            "sunday": "Linggo",
+            "monday": "Lunes",
+            "tuesday": "Martes",
+            "wednesday": "Miyerkules",
+            "thursday": "Huwebes",
+            "friday": "Biyernes",
+            "saturday": "Sabado"
+        },
+        "short_names": {
+            "sun": "Araw",
+            "mon": "Mon",
+            "tue": "Tue",
+            "wed": "Wed",
+            "thu": "Huwebes",
+            "fri": "Biyernes",
+            "sat": "Sab"
+        }
+    },
+    "sweet_alert": {
+        "user_activate": {
+            "title": "Sigurado ka bang nais mong i-activate ang gumagamit na ito?",
+            "text": "Ang hakbang na ito ay mag-a-activate sa gumagamit at maaari nilang ma-access ang kanilang account.",
+            "confirm_button": "Oo, i-activate ito!",
+            "cancel_button": "Hindi, kanselahin!",
+            "success": "Tagumpay na na-activate ang gumagamit!",
+            "ok": "Okay"
+        },
+        "user_suspend": {
+            "title": "Sigurado ka bang nais mong i-suspend ang gumagamit na ito?",
+            "text": "Ang hakbang na ito ay mag-suspend sa gumagamit at hindi na nila maa-access ang kanilang account.",
+            "confirm_button": "Oo, i-suspend ito!",
+            "cancel_button": "Hindi, kanselahin!",
+            "success": "Tagumpay na na-suspend ang gumagamit!",
+            "ok": "Okay"
+        },
+        "user_delete": {
+            "title": "Sigurado ka bang nais mong i-delete ang gumagamit na ito?",
+            "text": "Ang hakbang na ito ay permanenteng ide-delete ang gumagamit at ang kanilang mga kaugnay na data.",
+            "confirm_button": "Oo, i-delete ito!",
+            "cancel_button": "Hindi, kanselahin!",
+            "success": "Tagumpay na na-delete ang gumagamit!",
+            "ok": "Okay"
+        },
+        "vendor_approve": {
+            "title": "Sigurado ka bang nais mong aprubahan ang kahilingan?",
+            "text": "Ang aksyong ito ay mag-aapruba sa vendor at maaaring gamitin ang platform na ito",
+            "confirm_button": "Oo, Aprubahan!",
+            "cancel_button": "Hindi, Kanselahin!",
+            "success": "Matagumpay na naaprubahan ang User!",
+            "ok": "Sige"
+        }
+    },
+    "datatable": {
+        "contact_us_inquiry_table": {
+            "table_title": "Mga Pagtatanong sa Makipag-ugnayan sa Amin"
+        },
+        "suspended_user_table": {
+            "table_title": "Mga Nakabinbing Gumagamit"
+        },
+        "vendor_management_table": {
+            "table_title": "Lahat ng Listahan ng Vendor"
+        },
+        "verification_request_Table": {
+            "table_title": "Kahilingan sa Pagpapatunay ng Dokumento ng Vendor"
+        },
+        "common": {
+            "footer_showing_entries": "Ipinapakita ang {{startIndex}} hanggang {{endIndex}} sa {{totalFiltered}} na mga entry",
+            "no_data_available": "Walang available na datos",
+            "no_matching_data_found": "Walang natagpuang tumutugmang datos",
+            "show": "Ipakita",
+            "search_placeholder": "Maghanap dito"
+        },
+        "column": {
+            "serial_number": "Serial No.",
+            "first_name": "Pangalan",
+            "last_name": "Apelyido",
+            "vendor_name": "Pangalan ng Vendor",
+            "email": "Email",
+            "phone_no": "Numero ng Telepono",
+            "contact": "kontak",
+            "role": "Tungkulin",
+            "country": "Bansa",
+            "message": "Mensahe",
+            "status": "Status",
+            "vendor_status": "Status ng Vendor",
+            "created_at": "Nilikha Noong",
+            "number_of_venue": "Bilang ng Mga Venue",
+            "actions": "Aksyon",
+            "view_menu": "Tingnan ang Menu"
+        }
+    }
+}

@@ -1,0 +1,398 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact_us": "Contact Us",
+    "dashboard": "Dashboard",
+    "user_management": "User Management",
+    "about_us": "About Us",
+    "forgot_password": "Forgot Password",
+    "profile_management": "Profile Management",
+    "vendor_management": "Vendor Management",
+    "order_management": "Order Management",
+    "menu_management": "Menu Management",
+    "parents_profile": "Parents Profile",
+    "kids_profile_management": "Kids Profile Management",
+    "food_chart_creation": "Food Chart Creation",
+    "add_staff": "Add Staff"
+  },
+  "form": {
+    "label": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "email_address": "Email Address",
+      "phone_number": "Phone Number",
+      "phone_number_optional": "Phone Number (Optional)",
+      "message": "Your Message",
+      "school_address": "School Address",
+      "school_name": "School Name",
+      "company_name": "Company Name",
+      "agree_privacy_policy": "I agree to Privacy Policy & Terms",
+      "otp_field": "Enter OTP Send to your Email Address",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "new_password": "New Password",
+      "confirm_new_password": "Confirm New Password",
+      "address": "Address",
+      "permission": "Permission",
+      "role": "Role",
+      "your_role": "Your Role",
+      "role_option_school": "School",
+      "role_option_parent": "Parent",
+      "role_option_vendor": "Vendor",
+      "country": "Country",
+      "business_name": "Business Name",
+      "business_description": "Business Description",
+      "no_of_venue": "Number Of Venue",
+      "restaurant_name": "Restaurant Name",
+      "venue": "Venue",
+      "opening_hours": "Opening Hours",
+      "minimum_order": "Minimum Order",
+      "vendor_name": "Vendor Name",
+      "document_type": "Document Type",
+      "document": "Document",
+      "age": "Age",
+      "contact_no": "Contact no",
+      "parent_name": "Parent Name",
+      "kid_name": "Kid Name",
+      "grade": "Grade",
+      "class": "Class",
+      "gender": "Gender",
+      "weight": "Weight",
+      "height": "Height",
+      "allergies_dietary_description": "Allergies or Dietary: Description",
+      "name": "Name"
+    },
+    "placeholder": {
+      "name": "Enter Name",
+      "first_name": "Enter First Name",
+      "last_name": "Enter Last Name",
+      "email_address": "Enter Your Email Address",
+      "phone_number": "Enter Phone number",
+      "message": "Type Your Message",
+      "school_address": "Enter School Address",
+      "school_name": "Enter School Name",
+      "company_name": "Enter Company Name",
+      "password": "Enter Password",
+      "confirm_password": "Enter Confirm Password",
+      "new_password": "Enter New Password",
+      "confirm_new_password": "Enter Confirm New Password",
+      "address": "Type here...",
+      "role": "Select Role",
+      "country": "Enter Country Name",
+      "business_name": "Business Name",
+      "business_description": "Business Description",
+      "no_of_venue": "Number Of Venue",
+      "open": "Open",
+      "close": "Close",
+      "minimum_order": "Enter Minimum Order",
+      "drop_upload_file": "Drop Files here or Click to Upload",
+      "document_type": "Enter The Type of Document Name",
+      "age": "Enter Age",
+      "contact_no": "Enter Contact No",
+      "gender": "Select Gender",
+      "class": "Enter Class",
+      "weight": "Enter Weight",
+      "height": "Enter Height",
+      "reason": "Reason",
+      "allergies_dietary_description": "Enter Allergies or Dietary: Description"
+    },
+    "validation": {
+      "required": "This field is required",
+      "email_address": "Email address is invalid",
+      "phone_number": "Enter a valid phone number starting with +",
+      "agree_privacy_policy": "Please agree Privacy Policy & Terms of Use",
+      "exactly_6_digits": "Should be exactly 6 digits",
+      "passwords_must_match": "Passwords must match",
+      "end_time_lessthan": "End time must be greater than open time",
+      "address": "Address is Required"
+    },
+    "button": {
+      "create": "Create",
+      "cancel": "Cancel",
+      "update": "Update",
+      "confirm": "Confirm",
+      "submit": "Submit",
+      "Upload": "Upload",
+      "add_venue": "Add Venue",
+      "generate_request": "Generate Request",
+      "add_bank_account": "Add Bank Account",
+      "remove_all": "Remove All",
+      "later": "Later",
+      "add": "Add"
+    },
+    "dropdown": {
+      "genders": [
+        {
+          "id": "male",
+          "name": "Male"
+        },
+        {
+          "id": "female",
+          "name": "Female"
+        }
+      ]
+    }
+  },
+  "common": {
+    "submit": "Submit",
+    "sign_up": "Sign Up",
+    "get_started": "Get Started",
+    "join": "Join",
+    "login": "Log In",
+    "welcome": "Welcome",
+    "get_in_touch": "Get In Touch",
+    "no_locations": "No locations",
+    "approve": "Approve",
+    "reject": "Reject"
+  },
+  "footer": {
+    "subscribe_to_updates": "Subscribe to Updates",
+    "subscribe_for_updates": "Subscribe For Updates",
+    "healthy_meal_string": "Stay informed about healthy meal options for your kids.",
+    "subscribe_for_updates_cooking_string": "Something exciting is cooking! Subscribe to stay informed about healthy school meals.",
+    "subscribe": "Subscribe",
+    "terms_and_policy": "By Subscribing you Accept our Privacy Policy & Terms.",
+    "quick_link": "Quick Links",
+    "privacy_policy": "Privacy Policy",
+    "follow_us": "Follow Us",
+    "copy_right": "Copyright 2024 @",
+    "right_reserve": ", All right reserved",
+    "Foodishubs": "Foodishubs"
+  },
+  "page": {
+    "landing": {
+      "Foodishing_the_future": "Foodishing the Future",
+      "Foodishing": "Foodishing",
+      "Foodishing_connection": "Connections : Schools, Parents & Caterers",
+      "building_healthy_community_string": "Building A Healthy Community for Parents, Kids, Schools & Local Vendors",
+      "welcome_string": "Welcome to Foodishubs, where we offer healthy options for school meals. Join us in promoting nutritious meals for students and making healthy eating accessible for families.",
+      "community_string": "Effortlessly manage healthy meal orders for your school community",
+      "discover_string": "Discover how our platform connects school, parents & healthy food Vendors",
+      "sign_up_string": "Signing up is simple : schools, parents & vendors can register in minutes",
+      "collaborate_string": "Collaborate on Menus and Schedule meal delivery with ease.",
+      "school_vendor_string": "Schools and vendors agree on menus, ensuring students receive nutrition meals.",
+      "notification_string": "Stay informed with notifications about upcoming meal events & Orders",
+      "register_string": "Registered students will receive alerts for ordering meals ahead of time",
+      "healthy_food": "Healthy Food Movement",
+      "join_our": "Join Our",
+      "discover_school_string": "Discover how easy it is so provide nutritious meals for your students sign up today to connect with local vendors and enhance your school’s food offerings",
+      "healthy_eating_made_simple": "Healthy Eating Made Simple",
+      "welcome_coming_soon_string": "Welcome to {{app_name}},<br> Get ready for a delicious surprise beginning 2025",
+      "get_ready_surprise_coming_string": "GET READY FOR A DELICIOUS SURPRISE COMING IN 2025"
+    },
+    "signUp": {
+      "join_string": "Join The Movement",
+      "sign_up_string": "Signing up is easy and straightforward whether you're a school, a parent or a vendor. We have tailored options for you to be part of a healthier community.",
+      "select_string": "Select your Role and Contribute to",
+      "community_string": "the Healthy Eating Movement for Our Community",
+      "simple_string": "School Sign Up Made Simple",
+      "option_string": "School can easily register to offer healthy meal options",
+      "meal_string": "Parent/Kid Sign Up for Healthy Meals",
+      "order_string": "Parent & kids can sign up to order",
+      "catering_string": "Vendor Sign Up for Healthy Catering",
+      "nutritious_string": "Vendors can join to provide nutritious meals"
+    },
+    "signUpSchool": {
+      "meal_string": "Healthy Meals Delivered",
+      "join_string": "Join us in providing nutritious meals that energies and inspire your students every day.",
+      "solution_string": "Join us in providing healthy meal solutions for your students"
+    },
+    "signUpParent": {
+      "join_string": "Join Healthy Meals",
+      "school_string": "Sign Up today to access nutritious meal options Allowed for your child at school."
+    },
+    "signUpVendor": {
+      "join_string": "Join Our Network",
+      "community_string": "Become a vendor and deliver nutritious meals to schools & students in your community",
+      "solution_string": "Join us in providing healthy meal solutions for your students"
+    },
+    "contactUs": {
+      "join_string": "Join Our Healthy Initiative",
+      "sign_up_string": "We’re here to assist with your sign up",
+      "assist_string": "We’re are here to assist you"
+    },
+    "login": {
+      "login_to_your_account": "Login to Your Account",
+      "we_will_send_otp_string": "We'll Send a OTP by SMS to Your Email Address",
+      "send_otp": "Send OTP",
+      "login_with_password": "Login with Email & Password",
+      "login_with_otp": "Login with OTP"
+    },
+    "verifyLogin": {
+      "otp": "OTP",
+      "enter_your_otp": "Enter Your OTP",
+      "resend": "Resend"
+    },
+    "forgotPassword": {
+      "reset_your_password": "Reset Your Password",
+      "send": "Send",
+      "go_to_login": "Go to Login"
+    },
+    "user_management": {
+      "create_user": {
+        "create_user": "Create User"
+      },
+      "update_user": {
+        "update_user": "Update User"
+      },
+      "users": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "email": "Email Address",
+        "phone_no": "Phone number",
+        "status": "User status",
+        "is_approved": "Access",
+        "is_not_approved": "Not Access"
+      }
+    },
+    "profile_management": {
+      "venue_details": "Venue Details",
+      "add_minimum_threshold": "Add Minimum Threshold",
+      "doc_upload_hint": "personal certificates (Passport, National ID or any other form of ID), food certificates, Nutritionist certificate, Any other documents"
+    },
+    "parent_kid_management": {
+      "add_another_kid": "Add Another kid",
+      "add_kids_details": "Add Kids Details",
+      "kid_profile": "Kids Profile"
+    },
+    "vendor_management": {
+      "vendor_document_verification_requests": "Vendor document verification requests",
+      "vendor_review": "Vendor review",
+      "vendor_reject_title": "Reject Vendor",
+      "vendor_reject_text": "Please provide a reason for rejecting the vendor.",
+      "document_verification_requests": {
+        "document_list": "Document List"
+      }
+    },
+    "order_management": {
+      "last_moment_cancellation": "Last Moment Cancellation",
+      "vendor_minimum_thresholds_verfication_requests": "Vendor minimum thresholds verification requests",
+      "monitor_deliverd_order": "Moniter Delivered Order"
+    },
+    "vendor_profile": {
+      "title": "Vendor Details",
+      "button_title": "Suspend",
+      "vendor_name": "Vendor Name:",
+      "country": "Country:",
+      "email_address": "Email Address:",
+      "phone_number": "Phone Number:",
+      "restaurant_name": "Restaurant Name:",
+      "business_description": "Business Description:"
+    },
+    "common": {
+      "details": "Details",
+      "reject_request ": "Reject Request",
+      "payment_method": "Payment Method",
+      "upload_document": "Upload Document",
+      "account_number": "Account Number",
+      "ifs_code": "IFS Code",
+      "edit_information": "Edit Information",
+      "add_your_details": "Add Your Details",
+      "school": "School",
+      "parent": "Parent",
+      "kids": "Kids",
+      "contact": "Contact",
+      "review": "Review",
+      "review_details": "Review Details",
+      "order_date": "Order Date"
+    }
+  },
+  "day_names": {
+    "full_names": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "short_names": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    }
+  },
+  "sweet_alert": {
+    "user_activate": {
+      "title": "Are you sure you want to activate this user?",
+      "text": "This action will activate the user and they can access their account.",
+      "confirm_button": "Yes, activate it!",
+      "cancel_button": "No, cancel!",
+      "success": "User activated successfully!",
+      "ok": "Okay"
+    },
+    "user_suspend": {
+      "title": "Are you sure you want to suspend this user?",
+      "text": "This action will suspend the user and they will no longer be able to access their account.",
+      "confirm_button": "Yes, suspend it!",
+      "cancel_button": "No, cancel!",
+      "success": "User suspended successfully!",
+      "ok": "Okay"
+    },
+    "user_delete": {
+      "title": "Are you sure you want to delete this user?",
+      "text": "This action will permanently delete the user and their associated data.",
+      "confirm_button": "Yes, delete it!",
+      "cancel_button": "No, cancel!",
+      "success": "User deleted successfully!",
+      "ok": "Okay"
+    },
+    "vendor_approve": {
+      "title": "Are you sure you want to approve request ?",
+      "text": "This action will approve vendor and can use this platform",
+      "confirm_button": "Yes, Approve!",
+      "cancel_button": "No, cancel!",
+      "success": "User Approved successfully!",
+      "ok": "Okay"
+    }
+  },
+  "datatable": {
+    "contact_us_inquiry_table": {
+      "table_title": "Contact Us Inquiries"
+    },
+    "suspended_user_table": {
+      "table_title": "Suspended Users"
+    },
+    "vendor_management_table": {
+      "table_title": "All Vendor List"
+    },
+    "menu_management_table": {
+      "table_title": "All Category List"
+    },
+    "verification_request_Table": {
+      "table_title": "Vendor Document Verification Request"
+    },
+    "common": {
+      "footer_showing_entries": "Showing {{startIndex}} to {{endIndex}} of {{totalFiltered}} entries",
+      "no_data_available": "No data available",
+      "no_matching_data_found": "No matching data found",
+      "show": "Show",
+      "search_placeholder": "Search here"
+    },
+    "column": {
+      "serial_number": "Serial No.",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "vendor_name": "Vendor Name",
+      "email": "Email",
+      "phone_no": "Phone Number",
+      "contact": "contact",
+      "role": "Role",
+      "country": "Country",
+      "message": "Message",
+      "status": "Status",
+      "vendor_status": "Vendor Status",
+      "created_at": "Created At",
+      "number_of_venue": "Number of Venues",
+      "actions": "Action",
+      "view_menu": "View Menu"
+    }
+  }
+}
